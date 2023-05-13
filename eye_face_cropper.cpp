@@ -13,11 +13,11 @@ int main()
 {
     // Load the pre-trained eye cascade classifier
     cv::CascadeClassifier eyeCascade;
-    eyeCascade.load("C:/Users/egeha/Documents/ComputerVision_MachineLearning/haarcascade_eye.xml");
+    eyeCascade.load("haarcascade_eye.xml");
 
     // Load the pre-trained frontalface classifier
     cv::CascadeClassifier faceCascade;
-    faceCascade.load("C:/Users/egeha/Documents/ComputerVision_MachineLearning/haarcascade_frontalface_default.xml");
+    faceCascade.load("haarcascade_frontalface_default.xml");
 
     cv::VideoCapture cap(0);
 
